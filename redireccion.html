@@ -1,13 +1,66 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="refresh" content="0; url=https://ramosflooring.netlify.app/">
-        <title>Redirecting...</title>
-    </head>
-    <body>
-        <p>Redirecting to <a href="https://ramosflooring.netlify.app/">https://ramosflooring.netlify.app/</a></p>
-    </body>
-</html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5; url=https://ramosflooring.netlify.app/">
+    <title>Redirecting...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
 
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #007acc;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        a {
+            color: #007acc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .loader {
+            border: 8px solid #f3f3f3; /* Light grey */
+            border-top: 8px solid #007acc; /* Blue */
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Redirecting...</h1>
+        <div class="loader"></div>
+        <p>You will be redirected to the new page shortly. If nothing happens, click <a href="https://ramosflooring.netlify.app/">here</a>.</p>
+    </div>
+</body>
+</html>
